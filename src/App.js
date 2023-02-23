@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Cards from './Components/Cards';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Cards colorcode="#FF6663" name= "Pink"/>
+    <Cards colorcode="#333333" name= "Gray"/> 
+    <Cards colorcode="#000000" name= "Black"/> 
+    <Cards colorcode="#38BB14" name= "Green"/>
+    <Cards colorcode="#C90B0B" name= "Red"/>
+    <Cards colorcode="#FF8000" name= "Orange"/>
+    <Cards colorcode="#FFF500" name= "Yellow"/>
+    <Cards colorcode="#CCCCCC" name= "Light-Gray"/>
+    <Cards colorcode="#7E41A2" name= "Purple"/>
+    <Cards colorcode="#C14911" name= "Brown"/>
     </div>
   );
 }

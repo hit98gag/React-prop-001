@@ -1,0 +1,38 @@
+.cards{
+    width: 180px;
+    height:240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.7rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.bgcolor{
+    width: 100%;
+    height: 78%;
+}
+
+.colordata{
+    width: 90%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+.colordata h2{
+    font-size: 1.1rem;
+   font-family: "Roboto",sans-serif;
+  
+}
+
+.colordata span{
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-family: "Roboto",sans-serif;
+
+}
